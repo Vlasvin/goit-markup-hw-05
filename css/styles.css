@@ -743,20 +743,22 @@ img {
   display: flex;
   flex-direction: column;
 }
+.modal-name {
+  margin-bottom: 8px;
+}
 .input-wrap {
   position: relative;
   max-width: 360px;
   height: 40px;
-  margin-bottom: 8px;
 }
 .modal-label {
-  height: 100%;
-  font-weight: 400;
+  /* height: 100%; */
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--color-grey);
   margin-bottom: 4px;
+  display: block;
 }
 .user-name {
   height: 100%;
