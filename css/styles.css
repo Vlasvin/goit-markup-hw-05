@@ -857,6 +857,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color var(--transition), border var(--transition);
 }
 .input-check:checked + .check-text span {
   background-color: var(--active-color);
