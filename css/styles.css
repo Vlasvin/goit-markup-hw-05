@@ -485,47 +485,44 @@ img {
   margin-left: 80px;
 }
 .footer-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
   margin-top: 100px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .subscribe-form {
   display: flex;
-  gap: 16px;
-}
-.subscribe-lable {
+  gap: 24px;
 }
 .subscribe-input {
   min-width: 264px;
-  height: 32px;
+  height: 40px;
   padding-bottom: 8px;
   padding-left: 16px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
-  background-color: inherit;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .subscribe-input::placeholder {
   font-weight: 400;
   font-size: 12px;
-  left: 58.61%;
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--primary-color);
 }
 
 .subscribe-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  gap: 16px;
   background-color: var(--btn-color);
   border-radius: 4px;
   font-weight: 500;
@@ -535,9 +532,12 @@ img {
   letter-spacing: 0.04em;
   color: var(--primary-color);
   margin-bottom: 132px;
+  cursor: pointer;
+  border: none;
 }
 
 .footer-btn-icon {
+  margin-left: 16px;
 }
 
 /* ------------------------PORTFOLIO--------------------------- */
