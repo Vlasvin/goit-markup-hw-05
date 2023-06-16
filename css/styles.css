@@ -764,7 +764,7 @@ img {
   margin-bottom: 4px;
   display: block;
 }
-.user-name {
+.user {
   height: 100%;
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -775,11 +775,11 @@ img {
   padding-right: 24px;
   transition: border-color var(--transition);
 }
-.user-name:focus {
+.user:focus {
   border: 1px solid var(--btn-color);
   border-radius: 4px;
 }
-.user-name:focus + .modal-icon {
+.user:focus + .modal-icon {
   stroke: var(--btn-color);
   fill: var(--btn-color);
 }
@@ -854,7 +854,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: background-color var(--transition);
+  transition: background-color var(--transition), border var(--transition);
 }
 .input-check:checked + .check-text span {
   background-color: var(--active-color);
