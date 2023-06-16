@@ -844,6 +844,9 @@ img {
   color: var(--btn-color);
   text-decoration: underline;
 }
+.check {
+  transition: background-color var(--transition), border var(--transition);
+}
 .check-text span {
   width: 16px;
   height: 16px;
@@ -854,7 +857,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: background-color var(--transition), border var(--transition);
 }
 .input-check:checked + .check-text span {
   background-color: var(--active-color);
