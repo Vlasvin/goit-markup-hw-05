@@ -424,7 +424,7 @@ img {
   background-color: var(--color-dark);
   left: 0px;
   top: 2280px;
-  /* padding: 100px 0; */
+  padding: 100px 0;
 }
 .footer-position {
   margin-right: 120px;
@@ -490,7 +490,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
-  margin-top: 100px;
   margin-bottom: 16px;
 }
 .subscribe-form {
@@ -535,7 +534,6 @@ img {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-color);
-  margin-bottom: 132px;
   cursor: pointer;
   border: none;
 }
@@ -828,6 +826,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: var(--color-dark);
   transform: translateY(-50%);
   transition: fill var(--transition);
 }
