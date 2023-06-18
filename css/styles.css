@@ -503,7 +503,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-color);
-  padding-bottom: 8px;
   padding-left: 16px;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
