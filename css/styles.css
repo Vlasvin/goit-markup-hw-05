@@ -641,7 +641,7 @@ img {
 }
 .portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0%);
-}
+} 
 
 .portfolio-block {
   position: relative;
